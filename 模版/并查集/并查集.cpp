@@ -32,7 +32,7 @@ int find3(int x) { //递推第二种
 void join(int x, int y) {
     int fx = find1(x), fy = find1(y);
     if (fx != fy) {
-        parent[y] = fx;
+        parent[fy] = fx;
     }
 }
 int main() {
