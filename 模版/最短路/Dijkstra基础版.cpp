@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-const int maxn = 1e5, inf = 0x7f7f7f;
+const int maxn = 1e5, inf = 0x7fffffff;
 int mmap[maxn][maxn], dis[maxn], visit[maxn]; // dis数组存的为起始点与每个点的最短距离,visit数组存的为0或者1，1表示已经走过这个点
 int n;
 int dijkstra(int start, int end) { //从start到end的最短路
